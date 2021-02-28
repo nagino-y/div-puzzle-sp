@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.big-box {
+  /* 大きく囲って中央寄せのため相対的に位置を移動 */
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+}
