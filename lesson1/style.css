@@ -2,25 +2,18 @@
 
 /* clearfix用 */
 .clearfix::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
 
-.big-box {
-  /* 大きく囲って中央寄せのため相対的に位置を移動 */
-  width: 100vw;
-  /* height: auto; */
-  /* margin: 0 auto; */
-}
-
 header {
-  background-color: #FF0066;
+  background-color: #ff0066;
   display: flex;
   width: 100vw;
   height: 100px;
   position: relative;
-  box-shadow: 0 2px 4px #AAAAAA;
+  box-shadow: 0 2px 4px #aaaaaa;
 }
 
 .circle-box {
@@ -44,36 +37,27 @@ header {
 }
 
 main {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   width: 100vw;
-  height: 1200px;
+  height: 75vw;
 }
 
 .main-in {
   padding: 50px 50px 0 50px;
-  /* padding-left: 50px; */
   display: flex;
-  /* align-items:center; */
-  justify-content:center;
-  /* justify-content: space-between; */
+  justify-content: center;
 }
 
 .main-in .inner {
-  /* width: 500px; */
   max-width: 100%;
-  /* margin: 0 auto; */
 }
 
 .main-acount-box {
-  background-color: #BBBBBB;
+  background-color: #bbbbbb;
   width: 100px;
   height: 100px;
   border-radius: 10px;
-  /* flex-wrap: wrap; */
   margin: 0 40px 40px 40px;
-  /* display: inline-block; */
-  vertical-align: top;
-  /* text-align: center; */
 }
 
 .main-comment-box {
@@ -81,17 +65,11 @@ main {
   width: 70%;
   height: 200px;
   border-radius: 10px;
-  /* margin: 40px 0; */
-  /* display: inline-block; */
-  /* flex-wrap: wrap; */
-  /* text-align: center; */
-  box-shadow: 2px 2px 4px #AAAAAA;
+  box-shadow: 2px 2px 4px #aaaaaa;
 }
 
-footer {
+.footer {
   background-color: #000033;
   width: 100vw;
   height: 100px;
 }
-
-/* testtest */
