@@ -11,7 +11,7 @@
   /* 大きく囲って中央寄せのため相対的に位置を移動 */
   width: 100vw;
   /* height: auto; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 header {
@@ -50,14 +50,18 @@ main {
 }
 
 .main-in {
-  padding-top: 100px;
-  padding-left: 100px;
+  padding: 50px 50px 0 50px;
+  /* padding-left: 50px; */
+  display: flex;
+  /* align-items:center; */
+  justify-content:center;
+  /* justify-content: space-between; */
 }
 
 .main-in .inner {
   /* width: 500px; */
   max-width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .main-acount-box {
@@ -65,18 +69,22 @@ main {
   width: 100px;
   height: 100px;
   border-radius: 10px;
-  /* margin: 40px; */
-  display: inline-block;
+  /* flex-wrap: wrap; */
+  margin: 0 40px 40px 40px;
+  /* display: inline-block; */
   vertical-align: top;
+  /* text-align: center; */
 }
 
 .main-comment-box {
   background-color: white;
-  width: 500px;
+  width: 70%;
   height: 200px;
   border-radius: 10px;
   /* margin: 40px 0; */
-  display: inline-block;
+  /* display: inline-block; */
+  /* flex-wrap: wrap; */
+  /* text-align: center; */
   box-shadow: 2px 2px 4px #AAAAAA;
 }
 
