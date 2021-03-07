@@ -7,20 +7,21 @@
   clear: both;
 }
 
-.big-box {
-  /* 大きく囲って中央寄せのため相対的に位置を移動 */
-  width: 800px;
-  height: auto;
-  margin: 0 auto;
-}
-
-header {
+.header {
   background-color: #FF9900;
   display: flex;
-  width: 800px;
+  width: 100vw;
   height: 100px;
-  /* position: relative; */
+  position: relative;
   box-shadow: 0 2px 4px #AAAAAA;
+}
+
+.circle-box-in {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
 }
 
 .circle-box {
@@ -28,8 +29,8 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  /* position: absolute; */
   display: inline-block;
+  margin-right: 20px;
 }
 
 .comment-box {
@@ -38,18 +39,36 @@ header {
   height: 50px;
   border-radius: 10px;
   display: inline-block;
-  /* position: absolute; */
+  position: absolute;
+  left: 25px;
+  top: 25px;
 }
 
 main {
   background-color: #EEEEEE;
-  width: 800px;
-  height: 1200px;
 }
 
-.main-in {
+.main {
+  width: 100vw;
+  height: auto;
+}
+
+.conteiner {
+  display: grid;
+  gap: 10px;
+  grid-template-columns:
+}
+
+.content {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+/* .main-in {
   padding: 10px;
 }
+
 .main-acount-box {
   background-color: #BBBBBB;
   width: 100px;
@@ -68,7 +87,7 @@ main {
   margin: 40px 0;
   display: inline-block;
   box-shadow: 2px 2px 4px #AAAAAA;
-}
+} */
 
 footer {
   background-color: #000033;
