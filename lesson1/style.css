@@ -36,13 +36,10 @@
   top: 25px;
 }
 
-main {
-  width: 100vw;
-  height: auto;
-}
-
 .main {
   background-color: #eeeeee;
+  width: 100vw;
+  height: auto;
 }
 
 .main-in {

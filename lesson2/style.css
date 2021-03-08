@@ -55,8 +55,9 @@ main {
 
 .conteiner {
   display: grid;
-  gap: 10px;
-  grid-template-columns:
+  gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
 }
 
 .content {
@@ -64,6 +65,8 @@ main {
   width: 300px;
   height: 300px;
   border-radius: 10px;
+  margin: 10px;
+  padding: 50px;
 }
 /* .main-in {
   padding: 10px;
@@ -91,6 +94,6 @@ main {
 
 footer {
   background-color: #000033;
-  width: 800px;
+  width: 100vw;
   height: 100px;
 }
