@@ -44,20 +44,20 @@
   top: 25px;
 }
 
-main {
-  background-color: #EEEEEE;
-}
-
 .main {
+  background-color: #EEEEEE;
   width: 100vw;
   height: auto;
 }
 
 .conteiner {
+  /* width: 100vw; */
+  /* height: auto; */
   display: grid;
-  gap: 50px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 200px 200px;
+  gap: 20px;
+  grid-template-columns: repeat(3 ,minmax(300px, 1fr));
+  padding: 30px;
+  /* grid-template-rows: 1fr 1fr 1fr; */
 }
 
 .content {
@@ -65,8 +65,8 @@ main {
   width: 300px;
   height: 300px;
   border-radius: 10px;
-  margin: 10px;
-  padding: 50px;
+  margin: 0 auto;
+  /* padding: 50px; */
 }
 /* .main-in {
   padding: 10px;
